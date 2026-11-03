@@ -1,0 +1,10 @@
+# ESP-IDF generated files
+**/build/
+**/CMakeFiles/
+**/CMakeCache.txt
+
+# Temporary files
+*.o
+*.obj
+*.tmp
+*.log

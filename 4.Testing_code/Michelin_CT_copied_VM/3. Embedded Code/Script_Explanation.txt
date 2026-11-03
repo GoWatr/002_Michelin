@@ -1,0 +1,16 @@
+Script Explanation:
+
+1. Basically the folder is divided into two as Cooling tank & Valve side coding and Server side coding.
+
+2. Cooling_tank & valve side coding contains two scripts namely arduino code logics and Transmitter lora script.
+
+   -> The "Arduino code logic" script monitors the sensor inputs and does logical operations and controls the valve.
+   -> The transmitter lora script" transmits the sensor and valve data to server and receivers the command from server which in turn forward to arduino controller.
+
+3. Server side coding folder contains "Receiver lora script" & "Receiver raspberry pi script"
+ 
+   -> The "Receiver lora script" receives the water level data from transmitter and forwards to the server using RS485. 
+      Simultaneously, the module also send the server command to the transmitter to control the valves.
+   -> The "Receiver raspberry pi script" receives sensor data from lora and sends to the API.
+
+ 
